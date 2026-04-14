@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Autoencoders
 
 An autoencoder is an unsupervised neural network that learns to compress input data into a compact representation and then reconstruct it back. The network is trained so that the output $\hat{x}$ is as close as possible to the input $x$ — it essentially learns to copy its input through a narrow bottleneck, forcing it to capture only the most important structure in the data.
@@ -69,12 +68,3 @@ where $\alpha$ is the learning rate.
 - The latent space has no structure, so you can't sample from it to generate new data.
 - MSE loss tends to produce blurry reconstructions for images because it averages over all plausible outputs.
 - If the model has too much capacity, it can memorize the training data instead of learning meaningful features.
-
----
-
-## What's Next
-
-Basic AE → **Denoising AE** → **Sparse AE** → **Variational AE (VAE)**
-=======
-# Auto-Encoders
->>>>>>> 3c1d67de62a1470fdb719fdaa5fb56e3131fb68c
